@@ -10,7 +10,7 @@ tache3 = new Task("Troisième_tache","25/03");
 
 list.add(tache1);
 list.add(tache2);
-list.add(tache2);
+list.add(tache3);
 
 tasks.render()
 
