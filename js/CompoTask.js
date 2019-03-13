@@ -39,6 +39,6 @@ class CompoTask {
      * avec la classe CSS "task"
      */
     render() {
-        this.getElement().innerHTML = `<div class="task">${this.getTask().name}</div>`;
+        this.getElement().innerHTML = `<div class="task">${this.getTask().name} <span>à faire pour le</span> ${this.getTask().date}</div><hr>`;
     }
 }
